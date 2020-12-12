@@ -10,9 +10,9 @@ shopt -s nocasematch
 AWS_CLI="/usr/local/bin/aws"
 RETENTION_DEFAULT=1
 REGION=ap-south-1
-PREFIX="snapof"
+PREFIX="snapshot"
 
-export AWS_PROFILE=ss-lightsail-backup
+export AWS_PROFILE=lightsail-backup
 export AWS_DEFAULT_REGION=${REGION}
 export AWS_DEFAULT_OUTPUT=json
 
