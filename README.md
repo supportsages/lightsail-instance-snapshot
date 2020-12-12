@@ -31,3 +31,7 @@ The IAM user should have the following permissions for the LightSail service:
  - GetInstances
  - GetRegions
  - DeleteInstanceSnapshot
+ 
+ # Dependency
+ 1. [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html#cliv2-linux-install)
+ 1. [jq](https://stedolan.github.io/jq/)
